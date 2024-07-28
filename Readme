@@ -1,0 +1,38 @@
+Online Shopping Management System in C++
+
+The above code is an implementation of an online shopping management system in C++. It is a console-based application that allows users to browse and purchase products from a virtual store.
+
+Overview
+
+The system consists of the following components:
+
+Product Data Structure: A map data structure is used to store product information, where each product is identified by a unique category-model key. The value associated with each key is the product's price.
+Customer Class: A customer class is defined to represent a customer. Each customer object has a map data structure to store the products they have selected, along with the quantity of each product.
+Shop Class: A shop class is defined to represent the virtual store. It has a showMenu method to display the main menu, and a select method to handle customer selections.
+Derived Classes: Three derived classes are defined to represent specific product categories: mobile, laptop, and courses. Each derived class overrides the show and select methods to provide category-specific functionality.
+Main Function: The main function initializes the product data structure, creates a customer object, and enters a loop where it displays the main menu and processes customer selections.
+Functionality
+
+The system provides the following functionality:
+
+Browsing Products: Customers can browse products by category (mobile, laptop, or courses).
+Selecting Products: Customers can select products to add to their cart.
+Viewing Cart: Customers can view their cart contents.
+Checkout: Customers can checkout and generate a bill for their selected products.
+Key Features
+
+Object-Oriented Design: The system uses object-oriented programming principles to encapsulate data and behavior.
+Inheritance: The derived classes inherit behavior from the base shop class.
+Polymorphism: The select method is overridden in each derived class to provide category-specific functionality.
+Data Structures: The system uses map data structures to store product information and customer selections.
+Example Use Case
+
+Here's an example of how a customer might interact with the system:
+
+The customer runs the program and is presented with the main menu.
+They select option 1 to browse mobile products.
+They are presented with a list of mobile products and select one to add to their cart.
+They return to the main menu and select option 2 to browse laptop products.
+They select a laptop product to add to their cart.
+They return to the main menu and select option 4 to checkout.
+The system generates a bill for their selected products and displays it on the screen.
